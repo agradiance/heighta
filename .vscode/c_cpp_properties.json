@@ -4,12 +4,20 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:/Users/USER/Documents/Arduino/libraries/**"
+                // "C:/Users/USER/Documents/Arduino/libraries/**",
+                "C:/Users/USER/Documents/Arduino/**"
+                // "C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino",
+                // "C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
-                "_UNICODE"
+                "_UNICODE",
+                "USBCON",
+                
+                    "__AVR_ATmega328P__",
+                    "ARDUINO=10800"
+               
             ],
             "windowsSdkVersion": "10.0.19041.0",
             "compilerPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.28.29910\\bin\\Hostx64\\x64\\cl.exe",
